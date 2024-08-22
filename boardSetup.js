@@ -27,6 +27,7 @@ for (let i = 0; i<9; i++) {
         const newCell = $('<div class = "cell" id='+ i + j + '><div class = "textDisplay"></div></div>');
         if (board[i][j] != 0) {
             newCell.addClass("locked")
+            newCell.append('<div class=lockedCover></div>')
             newCell.children().eq(0).html(board[i][j])
         }
         let id = 3*Math.floor(i/3) + Math.floor(j/3)
