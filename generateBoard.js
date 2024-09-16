@@ -153,7 +153,7 @@ const createEmptyBoard = function (solvedBoard) {
     }
     shuffle(positions)
     
-    let n=45;
+    let n=55;
     let i = 0, row, column, temp, solutions;
     while (n>0 && i<81) {
         row = positions[i][0];
