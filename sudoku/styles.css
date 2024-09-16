@@ -2,9 +2,6 @@
     caret-color: transparent;
     user-select: none;
 }
-body {
-    background-color: rgb(46, 46, 46);
-}
 #board {
     position: absolute;
     top:0;
